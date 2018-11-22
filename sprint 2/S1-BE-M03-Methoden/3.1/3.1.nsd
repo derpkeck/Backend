@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _3._1_sprint2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string ant = "";
+            Console.WriteLine("wat is je naam");
+            string voornaam = Console.ReadLine();
+
+            Console.WriteLine("wat zijn je tussenvoegsels");
+            string tussenvoegsels = Console.ReadLine();
+
+            Console.WriteLine("wat is je achternaam");
+            string achternaam = Console.ReadLine();
+
+            ant = ant + voornaam + tussenvoegsels + achternaam;
+
+            Console.WriteLine(ant.Length);
+            Console.ReadLine();
+
+            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+        }
+    }
+}
