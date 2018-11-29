@@ -12,6 +12,7 @@ namespace _3._1
         {
             /* string ant moet leeg zo dat je hem later kan gebruiken*/
             string ant = "";
+            int sum = 0;
             /* van af hier ga je alles invullen (voornaam, tussenvoegsels en achternaam)*/
             Console.WriteLine("wat is je naam");
             string voornaam = Console.ReadLine();
@@ -24,8 +25,9 @@ namespace _3._1
             /* van af hier zet je alles in ant*/
             ant = ant + voornaam + tussenvoegsels + achternaam;
             /* ant.lengte betekend dat hij de letters van ant bij elkaar opteld*/
-            Console.WriteLine(ant.Length);
-            Console.ReadLine(); 
+            ant = ant.Replace(" ", "");
+            Console.WriteLine(ant.Length+" letters in je naam");
+            Main(args);
         }
     }
 }
