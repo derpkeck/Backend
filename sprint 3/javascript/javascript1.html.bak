@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="nl-be">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>iSee</title>
+    <meta content="iSee" name="author">
+    <script language="javascript">
+      function functienaam()
+      {alert("welkom op mijn website. \ndit is mijn eerste javascript. \nenkele onderwerpen die ik ga behandelen zijn:\n\t*alert\n\t*console\n\t*write\n\t*confirm\n\t*promt\n\t*variabelen\n\t*en operatoren\nik wens je veel plezier op mijn website.")
+      
+      }
+    </script>
+  </head>
+  <body> 
+    <div style="text-align: center;"><span style="font-family: Verdana;"><button
+
+          type="button" name="knopnaam" language="javascript" onclick="functienaam()">druk
+          hier</button></span><br>
+      <br style="font-family: Verdana;">
+      <br style="font-family: Verdana;">
+    </div>
+    <p><br>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Lab 01</title>
+    <!--dit script werkt met variabelen
+		auteur:
+		datum:
+		-->
+  </head>
+  <body>
+    <h2>lab01</h2>
+    <h3>Factuur</h3>
+    <script>
+      var klantnaam=prompt("voer je eigen naam in");
+      var aantal=parseInt(prompt("aantal boeken te bestellen?"));
+      var titel="javascript";
+      var prijs= 29.90;
+      var bedrag= prijs *aantal;
+      var btw= bedrag*0.06;
+      var totaal= bedrag+btw;
+      
+      document.write("<br>Bedankt voor  je bestelling: "+klantnaam);
+      document.write("<br>boektitel is: "+titel);
+      document.write("<br>Aantal te bestellen: "+aantal);
+      document.write("<br>Prijs per boek is: "+prijs.toFixed(2));
+      document.write("<br>bedrag is: "+bedrag)
+      document.write("<br>BTW is: "+btw)
+      document.write("<br>het totale bedrag is: "+totaal)
+    </script>
+  </body>
+</html>
