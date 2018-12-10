@@ -1,3 +1,0 @@
-﻿1>------ Build started: Project: Opdracht_7_3, Configuration: Debug Any CPU ------
-1>  Opdracht_7_3 -> C:\Users\Gebruiker\Source\Repos\The-Elite-Main\Sprint 3\S1-BE-M07-Arrays\Opdracht_7_3\bin\Debug\Opdracht_7_3.exe
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
