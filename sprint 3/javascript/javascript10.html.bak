@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+  </head>
+  <body>
+		<script>
+    	var array = [];
+      array[0]=parseInt(prompt("vul een getal in"));
+      array[1]=parseInt(prompt("vul nog een getal in"));
+      array[2]=parseInt(prompt("vul nog een getal in"));
+      array[4]=array[0]+array[2]+array[1];
+      
+    </script>
+  </body>
+</html>

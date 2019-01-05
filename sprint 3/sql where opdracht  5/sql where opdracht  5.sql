@@ -1,0 +1,1 @@
+select EventName, EventDate from tblEvent where EventName LIKE '%Teletubbies%' OR EventName LIKE '%Pandy%'

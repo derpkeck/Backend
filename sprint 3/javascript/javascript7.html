@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+  </head>
+	<body>
+    <script>
+			var weekdays = ["zondag", "maandag", "dinsdag", "woensdag", "donderdag", "Vrijdag", "zaterdag"];
+      var spreekwoorden= ["Eigen haard is goud waard", "Haastige spoed is zelden goed"," Beter laat dan nooit ","Wie het laatst lacht, lacht het best","De morgenstond heeft goud in de mond", "Zoals het klokje tikt, tikt het nergens", "Oost west, thuis best"]
+			var datum = new Date();
+			var dag = datum.getDay();
+
+			document.write("<h1> het is vandaag "+weekdays[dag]+"</h1>");
+      document.write("<h1> de tip van de dag is: "+spreekwoorden[dag]+"</h1>")
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+select top 3 CategoryId, CategoryName from tblCategory order by CategoryName desc

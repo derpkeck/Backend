@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    	//r lezen = ["aap", "noot", "mies"];
+      
+      
+      //r (var a = 0; a <= lezen.length; a++)
+      //
+        //cument.write(lezen[a]);
+      //
+      
+      
+      var lezen = ["aap", "noot", "mies"];
+
+			lezen.push("Wim");
+			lezen.push("Zus");
+			lezen.push("Jet");
+
+			for(var i=0; i<lezen.length; ++i)
+			{
+    			document.write(lezen[i]+", ");
+			}
+
+
+      
+    </script>
+  </body>
+</html>

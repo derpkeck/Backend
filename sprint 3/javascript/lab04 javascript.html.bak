@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    	var palet=['blauw', 'groen', 'geel', 'rood', 'paars'];
+      alert(palet);
+      var nieuwekleur=prompt('vul een kleur in: ');
+     	palet.push(nieuwekleur);
+      alert(palet);
+      var nieuwekleur2=prompt('vul een kleur in: ');
+      palet.unshift(nieuwekleur2);
+      alert(palet);
+      palet.sort();
+      alert(palet);
+      var palet2 = palet.splice(3, 7);
+      alert('palet1 ='+palet+'\npalet2 ='+palet2)
+      var palet3=palet
+      alert(palet3)
+    </script>
+  </body>
+</html>

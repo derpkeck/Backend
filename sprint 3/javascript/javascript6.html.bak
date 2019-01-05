@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="nl-be">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>iSee</title>
+    <meta content="iSee" name="author">
+    <script>
+      var getal1=parseInt(prompt("voer een getal in"));
+      var getal2=parseInt(prompt("voer nog een getal in"));
+      var ding=prompt("vul een +, -, *, / of een %");
+      var plus = ("+");
+      var min = ("-");
+      var keer =("*");
+      var deel= ("/");
+      var rest=("%");
+      var uitkomst=("0");
+      if ( ding == plus)
+     	{
+        uitkomst = getal1 + getal2;
+        document.write(uitkomst);
+     	}
+      else
+      {
+        if( ding == min)
+        {
+          uitkomst= getal1 - getal2;
+          document.write(uitkomst);
+        }
+        else
+        {
+          if (ding == keer)
+          {
+            uitkomst = getal1 * getal2
+            document.write(uitkomst)
+          }
+          else
+          {
+            if (ding == deel)
+            {
+              uitkomst = getal1 / getal2
+              document.write(uitkomst)
+            }
+            else
+            {
+              if (ding == rest)
+              {
+                uitkomst = getal1 % getal2
+                document.write(uitkomst)
+              }
+              else
+              {
+                document.write("wat je ingevuld hebt kan niet")
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body><br>
+    <p><br>
+    </p>
+  </body>
+</html>
